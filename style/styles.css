@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* header */
+#heading-banner {
+  height: 11vh;
+  background-color: #F2FAFF;
+  margin: auto;
+}
+.page-heading {  
+  height: 11vh;
+}
+
+/* right container */
+.rightHousesContainer{
+  overflow-y: scroll;
+  height: calc(100vh - 10vh);
+  overflow-y: scroll;
+}
+/* left container */
+.leftImageContainer img{
+ width:60vw;
+ height: 85vh;
+}
+/* card */
+#card{
+  padding: 0;
+ 
+}
+#card img{
+  height: 170px;
+  
+}
+#cardBody{
+  height: 7.9rem;
+}
+#cardBody h1, p{
+  line-height: 0.8;
+}
