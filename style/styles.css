@@ -28,8 +28,12 @@
 
 
 
-.leftImageContainer{
-  background: url(/images/imageOnleft.jpg);
+.leftImageContainerRent{
+  background: url(/images/imageOnLeftRentPage.jpg);
+ margin-left: -12px;
+}
+.leftImageContainerBuy{
+  background: url(/images/imageOnLeftBuyPage.jpg);
  margin-left: -12px;
 }
 
