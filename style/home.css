@@ -55,7 +55,7 @@ html {
 }
 
 .card img {
-  width: 22rem;
+  width: 21rem;
   height: 25vh;
 }
 
@@ -93,6 +93,14 @@ html {
 
 .renbuy-cards {
   height: 80vh;
+}
+
+.card {
+  margin: auto;
+}
+
+.btn {
+  width: 75px;
 }
 
 
