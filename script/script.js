@@ -67,19 +67,3 @@ function setSuccessFor(input) {
 	const formControl = input.parentElement;
 	formControl.className = 'form-control success';
 }
-
-
-$(document).ready(function(){
-    $("#card").click(function(){
-        $("#cardBody").toggle();
-    });
-
-    
-    $(".rentbuy-cards").each(function(){
-        $("img").hover(function(){
-            $(this).animate({opacity: .1});
-        }, function(){
-            $(this).animate({opacity: 1});
-        });
-    });
-});
