@@ -16,21 +16,30 @@
 /* right container */
 .rightHousesContainer{
   overflow-y: scroll;
-  height: calc(100vh - 10vh);
-  overflow-y: scroll;
+  height:90vh;
+  
+  box-shadow: -3px 1px 7px 0px rgba(0,0,0,0.30);
+-webkit-box-shadow: -3px 1px 7px 0px rgba(0,0,0,0.30);
+-moz-box-shadow: -3px 1px 7px 0px rgba(0,0,0,0.30);
+
 }
-/* left container */
-.leftImageContainer img{
- width:60vw;
- height: 85vh;
+
+.leftImageContainerRent{
+  background: url(/images/imageOnLeftRentPage.jpg);
+ margin-left: -12px;
 }
+.leftImageContainerBuy{
+  background: url(/images/imageOnLeftBuyPage.jpg);
+  margin-left: -12px;
+}
+
 /* card */
 #card{
-  padding: 0;
- 
+
+  border-bottom: 4px solid blue;
 }
 #card img{
-  height: 170px;
+ height: 11rem;
   
 }
 #cardBody{
