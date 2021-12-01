@@ -17,16 +17,12 @@
 .rightHousesContainer{
   overflow-y: scroll;
   height:90vh;
+  
   box-shadow: -3px 1px 7px 0px rgba(0,0,0,0.30);
 -webkit-box-shadow: -3px 1px 7px 0px rgba(0,0,0,0.30);
 -moz-box-shadow: -3px 1px 7px 0px rgba(0,0,0,0.30);
 
 }
-.rightHousesContainer img{
-  position: relative;
-}
-
-
 
 .leftImageContainerRent{
   background: url(/images/imageOnLeftRentPage.jpg);
@@ -34,12 +30,12 @@
 }
 .leftImageContainerBuy{
   background: url(/images/imageOnLeftBuyPage.jpg);
- margin-left: -12px;
+  margin-left: -12px;
 }
 
 /* card */
 #card{
-  padding: 0;
+
   border-bottom: 4px solid blue;
 }
 #card img{
