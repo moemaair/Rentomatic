@@ -17,12 +17,13 @@
 
 <body>
   <div>
-    <div class="container-fluid d-flex justify-content-center" id="heading-banner">
-      <p>survived not only five centuries, but also the leap int</p>
+    <div class="container-fluid d-flex justify-content-center align-items-center bg-light" id="heading-banner">
+      <p>Offers! Please sign up for free to check out houses on offer</p>
+      <!-- <button class="btn-close"> </button> -->
     </div>
-    <div class="container-fluid page-heading">
+    <div class="container-fluid page-heading  ">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 d-flex align-items-center mt-3">
           <ul class="nav">
             <li class="nav-item">
               <a class="nav-link" href="#">Rent</a>
@@ -31,17 +32,17 @@
               <a class="nav-link" href="#">Buy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Home</a>
+              <a class="nav-link disabled" href="#"><i class="fa fa-home" id="fa-home"></i></a>
             </li>
           </ul>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mt-3">
           <h1 id="heading">RENTOMATIC</h1>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mt-3">
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Rent</a>
+              <a class="nav-link" href="#">About us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
@@ -58,17 +59,25 @@
     <div class="container rentbuy-cards">
       <div class="row">
         <div class="col-md-4">
-          <div class="card">
+          <div class="card d-flex flex-column justify-content-center align-items-center rounded shadow">
             <img class="card-img-top" src="../home-images/rent-1.jpg" alt="Card image">
             <div class="card-body">
-              <h4 class="card-title">Rent a home</h4>
+              <h4 class="card-title">Buy a home</h4>
               <p class="card-text">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to dem</p>
-              <button type="submit" class="btn btn-primary">Rent</button>
+              <button type="submit" class="btn btn-primary">Buy</button>
             </div>
           </div>
         </div>
+        <!-- <div class=“card d-flex flex-column justify-content-center align-items-center rounded shadow” style=“width: 20rem;“>
+            <img src=“undraw_quality_time_wiyl.svg” class=“card-img-top” alt=“...” style=“width: 14rem;“>
+            <div class=“card-body text-center”>
+              <h5 class=“card-title”>Card title</h5>
+              <p class=“card-text”>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href=“#” class=“btn border-primary”>Go somewhere</a>
+            </div>
+          </div> -->
         <div class="col-md-4">
-          <div class="card">
+          <div class="card d-flex flex-column justify-content-center align-items-center rounded shadow">
             <img class="card-img-top" src="../home-images/rent-1.jpg" alt="Card image">
             <div class="card-body">
               <h4 class="card-title">Buy a home</h4>
@@ -78,7 +87,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <div class="card d-flex flex-column justify-content-center align-items-center rounded shadow">
             <img class="card-img-top" src="../home-images/rent-1.jpg" alt="Card image">
             <div class="card-body">
               <h4 class="card-title">Rent office</h4>
@@ -90,7 +99,7 @@
       </div>
     </div>
     <div>
-      <footer class="footer-distributed" id="footer">
+      <footer class="footer-distributed bg-light" id="footer">
         <div class="footer-left">
           <img src="../home-images/logo.jpg">
           <h3>About<span>Rentomatic</span></h3>
@@ -121,7 +130,7 @@
           </div>
         </div>
         <div class="footer-right">
-          <p class="footer-company-about">
+          <p class="footer-company-about " id="aboutus">
             <span>About the company</span> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
             letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover
             many web sites still in their infancy.</p>

@@ -8,6 +8,10 @@
   height: 11vh;
 }
 
+#fa-home {
+  font-size: 25px;
+}
+
 #heading {
   font-size: 35px;
   text-align: center;
@@ -68,6 +72,17 @@ header span {
 
 .btn {
   text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  color: white;
 }
 
 
