@@ -1,3 +1,7 @@
+html {
+  background-color: #eaf0f2;
+}
+
 #heading-banner {
   height: 11vh;
   background-color: #F2FAFF;
@@ -8,10 +12,30 @@
   height: 11vh;
 }
 
+#fa-home {
+  font-size: 25px;
+}
+
 #heading {
   font-size: 35px;
   text-align: center;
   margin: auto;
+}
+
+#homepg-search[type=text] {
+  width: 50vw;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgb(247, 243, 243);
+  padding: 12px 20px 12px 40px;
+  transition: width 0.5s ease-in;
+  -webkit-transition: inherit;
+}
+
+#homepg-search[type=text]:focus {
+  width: 20vw;
 }
 
 .homepage {
@@ -25,49 +49,58 @@
   position: relative;
 }
 
-.rentbuy-cards {
-  padding: 20vh;
+.card {
+  width: 22rem;
+  height: 50vh;
 }
 
-.cards p h4 a {
+.card img {
+  width: 21rem;
+  height: 25vh;
+}
+
+.card-title {
+  font-family: ‘Roboto’, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  color: #00B0FF;
+}
+
+.card-text {
+  font-size: 14px;
+  font-family: ‘Open Sans’, sans-serif;
   text-align: center;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  background-color: #eaf0f2;
-}
-
-body {
-  font: 16px/1.6 Arial, sans-serif;
-}
-
-header {
+.card button {
   text-align: center;
-  padding-top: 100px;
-  margin-bottom: 190px;
 }
 
-header h1 {
-  font: normal 32px/1.5 'Open Sans', sans-serif;
-  color: #3F71AE;
-  padding-bottom: 16px;
+.card:hover {
+  transform: scale(1.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-header h2 {
-  color: #F05283;
+.btn:hover {
+  color: white;
 }
 
-header span {
-  color: #3F71EA;
+
+/* cards div */
+
+.renbuy-cards {
+  height: 80vh;
+}
+
+.card {
+  margin: auto;
 }
 
 .btn {
-  text-align: center;
+  width: 75px;
 }
 
 
@@ -85,6 +118,16 @@ footer {
   bottom: 0;
 }
 
+#logo {
+  height: 15vh;
+  width: 20vw;
+}
+
+#footerimage1 {
+  height: 40vh;
+  width: 90vw;
+}
+
 @media (max-height:800px) {
   footer {
     position: static;
@@ -99,7 +142,8 @@ footer {
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
+  font: bold 16px‘Open Sans’, sans-serif;
+  ;
   padding: 50px 50px 60px 50px;
   margin-top: 80px;
 }
