@@ -49,6 +49,14 @@ function isEmail(email) {
 }
 
 
+function setErrorFor(input, message) {
+	const formControl = input.parentElement;
+	const small = formControl.querySelector('small');
+	formControl.className = 'form-control error';
+	small.innerText = message;
+}
+
+
 
 $(document).ready(function(){
     $("#card").click(function(){
