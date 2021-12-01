@@ -1,25 +1,9 @@
-
-
-/*.login-signup-container{
-    display: flex;
-    justify-content: center;
+body{
+    background-color: cadetblue;
     align-items: center;
-}
-.login-container h4{
-    font-weight: bold;
-    padding-top: 20px;
-}
-
-.form-input{
-    margin: 1rem;
-}
-
-.form #login{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-.container .title h3{
-    justify-content: center;
     text-align: center;
+}
+form{
+    justify-content: center;
+    align-items: center;
 }
