@@ -15,6 +15,9 @@ body{
 .page-heading {  
   height: 11vh;
 }
+#hey{
+  border: 2px solid red;
+}
 
 /* right container */
 .rightHousesContainer{
