@@ -1,0 +1,13 @@
+.row img{
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.row h4{
+    justify-items: center;
+    text-align: center;
+    font-weight: bold;
+}
