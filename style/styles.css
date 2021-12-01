@@ -10,7 +10,6 @@ body{
 /* header */
 #heading-banner {
   height: 11vh;
-  background-color: #F2FAFF;
   margin: auto;
 }
 .page-heading {  
@@ -50,11 +49,27 @@ body{
   height: 7.9rem;
 }
 #cardBody h1, p{
-  line-height: 0.8;
+  line-height: 1;
 }
 
 /* MODAL STYLES */
-modal-body{
+.modal-body{
   line-height: 2.5;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.modal-image-container{
+  overflow-y: scroll;
+  height:100vh;
+  
+
+}
+
+
+ .btn-close{
+display: flex;
+justify-content: end;
+align-self: end;
 }
 
