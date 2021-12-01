@@ -29,25 +29,35 @@
                     <div class="col-md-6">
                         <label for="firstname" class="form">First Name:</label>
                         <input type="text" class="form-control" id="first-name" placeholder="Your First Name" required>
+                        <small class="error">First name cannot be blank</small>
                     </div>
                     <div class="col-md-6">
-                        <label for="surname" class="form">Surname Name:</label>
+                        <label for="surname" class="form">Surname:</label>
                         <input type="text" class="form-control" id="surname" placeholder="Your Surname" required>
+                        <small class="error">Surname cannot be blank</small>
+
                     </div>
                     <div class="col-md-6">
                         <label for="email" class="form">Email:</label>
                         <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                        <small class="error">Email cannot be blank</small>
+
                     </div>
                     <div class="col-md-6">
                         <label for="telnumber" class="form">Tel No:</label>
                         <input type="text" class="form-control" id="telnumber"  placeholder="(+254)7564333" required>
+                        <small class="error">Phone number cannot be blank</small>
+
                     </div>
                     <div class="col-md-12">
-                        <label for="comments" class="form">Message & Comments</label>
+                        <label for="message" class="form">Message & Comments</label>
                         <textarea class="form-control" id="comments-message" rows="3" required></textarea>
+                        <small class="error">Message cannot be blank</small>
+
                     </div>
                     <div class="col-md-12">
                         <button type="submit" class="btn btn-primary" id="submit">Contact Agent</button>
+                        <p id="success">Your message has been sent succesfully!</p>
                     </div>
                 </div>
             </form>

@@ -7,3 +7,20 @@ form{
     justify-content: center;
     align-items: center;
 }
+.col-md-12{
+    padding: 10px;
+}
+textarea{
+    resize: none;
+}
+.error{
+    color: red;
+    display: none;
+}
+.error-text{
+    color: red;
+}
+#success{
+    color: blue;
+    display: none;
+}
