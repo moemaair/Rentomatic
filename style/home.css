@@ -1,11 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   background-color: #eaf0f2;
 }
 
-#heading-banner {
+.heading-banner {
   height: 11vh;
   background-color: #F2FAFF;
   margin: auto;
+  position: relative;
+}
+
+#btn-close {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .page-heading {
@@ -22,10 +34,19 @@ html {
   margin: auto;
 }
 
+#header-row {
+  margin: 0 auto;
+  width: 100%;
+}
+
 .logo-header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.nav-link {
+  font-size: 13px;
 }
 
 #homepg-search[type=text] {
@@ -134,7 +155,15 @@ footer {
   width: 80vw;
 }
 
-@media (max-height:800px) {
+#hamburger {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-height:768px) {
   footer {
     position: static;
   }
