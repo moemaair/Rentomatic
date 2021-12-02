@@ -40,15 +40,6 @@ textarea {
   resize: none;
 }
 
-.error {
-  color: red;
-  display: none;
-}
-
-#success {
-  color: blue;
-  display: none;
-}
 
 
 /* The footer is fixed to the bottom of the page */
@@ -218,6 +209,26 @@ footer {
 
 
 /* Here is the code for Responsive Footer */
+.hamburgerIcon {
+  display: none;
+}
+.rightLinks, .leftLinks{
+  padding-top: 1rem;
+}
+.input{ 
+  gap: 30px;
+}
+.hamburgerIcon{
+  display: none;
+}
+.header-nav{
+display: flex;
+
+}
+#mobile-menu{
+  display: none;
+
+}
 
 
 /* You can remove below code if you don't want Footer to be responsive */
@@ -234,4 +245,31 @@ footer {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
+  .footer-image, .rightLinks, .leftLinks{
+    display: none;
+  }
+  .input{
+    gap: 20px;
+    flex-direction: column;
+    
+  }
+  .row{
+    padding: 0 10px;
+   flex-direction: row;
+  }
+ .hamburgerIcon {
+  display: flex;
+  justify-content: end;
+  align-self: center;
+  
+ }
+
+  .footer-left img{
+    display: none;
+  }
+  .mobile-menu{
+    display: none;
+  }
+    
+  
 }
