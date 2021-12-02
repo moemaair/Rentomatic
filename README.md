@@ -5,7 +5,7 @@ Project Title - RENTOMATIC
 Description About:
 
 * * *
-Rentomantic is a web application  that is built for Rentals and buying of property for Potential users who are looking for there Dream Home. This web application will cut out the need to go through agency or brokers.
+Rentomantic is a web application  that is built for Rentals and buying of property for Potential users who are looking for their Dream Home. This web application will cut out the need to go through agency or brokers.
 
 #### DEMO
 [Demo]() 
@@ -36,7 +36,7 @@ then copy the project using : git clone
 
 ### Collaborators
 * [Mohamed Ibrahim](https://github.com/moemaair/)
-* []()
+* [Cosmas Bett](https://github.com/CosBett)
 * []()
 
 ## License
