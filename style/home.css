@@ -12,7 +12,6 @@ html {
   height: 11vh;
 }
 
-
 #fa-home {
   font-size: 25px;
 }
@@ -22,7 +21,8 @@ html {
   text-align: center;
   margin: auto;
 }
-.logo-header{
+
+.logo-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,6 @@ html {
 #homepg-search[type=text]:focus {
   width: 20vw;
 }
-
 
 .homepage {
   background-image: url(../home-images/home_bg.jpg);
@@ -131,8 +130,8 @@ footer {
 }
 
 #footerimage1 {
-  height: 40vh;
-  width: 90vw;
+  height: 50vh;
+  width: 80vw;
 }
 
 @media (max-height:800px) {
