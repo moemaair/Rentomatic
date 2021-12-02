@@ -38,11 +38,12 @@ html {
   width: 20vw;
 }
 
+
 .homepage {
   background-image: url(../home-images/home_bg.jpg);
   background-position: center center;
   background-size: cover;
-  height: 75vh;
+  height: 78vh;
   background-repeat: no-repeat;
   color: white;
   width: 100vw;
