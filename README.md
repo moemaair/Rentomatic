@@ -1,5 +1,5 @@
 
-Project Title - RENTOMANTIC
+Project Title - RENTOMATIC
 ====================================================
 
 Description About:
