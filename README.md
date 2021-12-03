@@ -37,7 +37,9 @@ then copy the project using : git clone
 ### Collaborators
 * [Mohamed Ibrahim](https://github.com/moemaair/)
 * [Cosmas Bett](https://github.com/CosBett)
-* []()
+* [Yahya Noor](https://github.com/yahyasaadi)
+* [Fred Papa](https://github.com/PapaFreddie)
+
 
 ## License
 The MIT Open source License: [MIT LICENSE](https://opensource.org/licenses/MIT)
