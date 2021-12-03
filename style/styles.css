@@ -137,6 +137,14 @@ footer {
   .footer-distributed .footer-left img {
     width: 30%;
   }
+  #logo {
+    height: 15vh;
+    width: 20vw;
+  }
+  #footerimage1 {
+    height: 50vh;
+    width: 80vw;
+  }
   
   
   /* Footer links */
@@ -213,6 +221,7 @@ footer {
     font-weight: normal;
     margin: 0;
   }
+  
   
   .footer-distributed .footer-company-about span {
     display: block;
@@ -293,6 +302,10 @@ footer {
    .textContentContainer{
      width: 75vw;
    }
+   #logo, #footerimage1{
+     display: none;
+   }
+  
   
    
   }
