@@ -289,12 +289,9 @@ footer {
   margin-right: 3px;
   margin-bottom: 5px;
 }
-#mobile-menu div{
-  display: none;
 
-}
 
-.hamburgerIcon{
+#mobile-menu, .hamburgerIcon{
   display: none;
 }
 
