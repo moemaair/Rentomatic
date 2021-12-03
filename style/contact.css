@@ -208,7 +208,6 @@ footer {
 }
 
 
-/* Here is the code for Responsive Footer */
 .hamburgerIcon {
   display: none;
 }
@@ -231,9 +230,9 @@ display: flex;
 }
 
 
-/* You can remove below code if you don't want Footer to be responsive */
+/* You can remove below code if you don't want Footer and other component to be responsive  */
 
-@media (max-width: 880px) {
+@media (max-width: 768px) {
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right {
@@ -268,7 +267,6 @@ display: flex;
     display: none;
   }
   .mobile-menu{
-    display: none;
   }
     
   

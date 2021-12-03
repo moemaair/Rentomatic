@@ -15,42 +15,54 @@
 <body>
 
 
- <header> 
+ <header>
 
  <!-- ***********NAV-SECTION-start***************** -->
 
-<div class="container-fluid page-heading">
-  <div class="row">
-    <div class="col-md-3">
-      <ul class="nav ">
-        <li class="nav-item">
-          <a class="nav-link disabled" href="/markup/Rent.html">Rent</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link border" href="/markup/Buy.html">Buy</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="/markup/home.html">Home</a>
-        </li>
-      </ul>
-    </div>
-    <div class="col-md-6 d-flex justify-content-center">
-      <img src="/contact.images/logo.jpg" alt="" class="text-center " style="width:15rem;">
-    </div>
-    <div class="col-md-3">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link disabled" href="/markup/Rent.html">Rent</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../contact.html">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> Sign in</a>
-        </li>
-      </ul>
-    </div>
+ <div class="row shadow-sm " id="nav-links">
+  <div class="col-md-3 leftLinks p-4">
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="markup/Rent.html">Rent</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/markup/Buy.html">Buy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link header-logo " href="/markup/home.html">Home</a>
+      </li>
+    </ul>
+
   </div>
+  <div class="col-md-6 col-6 d-flex justify-content-center" >
+    <img src="/contact.images/logo.jpg" alt="" style="width: 10rem";>
+   </div>
+  <div class="col-md-3 rightLinks p-4">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/markup/Rent.html" target="_blank">Rent</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact.html" target="_blank">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> Sign in</a>
+      </li>
+    </ul>
+  </div> 
+
+  <div class="hamburgerIcon col-6" id='hamburgerIcon' >
+    <i class="fa fa-bars "></i>
+  </div>
+</div>
+<!-- mobile menu  -->
+<p class="mobile-menu" id="mobile-menu">
+<a href="/markup/home.html" target="_blank">Home</a> |
+<a href="/markup/Rent.html" target="_blank">rent</a> |
+<a href="/markup/Buy.html" target="_blank">Buy</a> |
+<a href="#" target="_blank">Contact</a>
+</p>
 
  <!-- ***********NAV-SECTION-end***************** -->
   
@@ -63,67 +75,77 @@
    <!-- ***********start MODAL POP UP ***************** -->
 
   <!-- model first -->
-   <div class="modal fade" id="firstModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="firstModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
-  <div class="modal-dialog modal-xl p-0" >
-    <div class="modal-content">
-      
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      
-      <div class="modal-body ">
-        <div class="body-container-modal d-flex">
-          <div class="modal-image-container d-flex flex-column">
-            <img src="/images/card-1-two.jpg" alt=""  class="w-100">
-            <img src="/images/card-1-three.jpg" alt="" class="w-100">
-            <img src="/images/card-1-four.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-five.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-six.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-seven.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-eight.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-nine.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-ten.jpg" alt=""  class="w-100" >
+    <div class="modal-dialog modal-xl p-0" >
+      <div class="modal-content">
+        
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+        <div class="modal-body ">
+          <div class="body-container-modal d-flex">
+            <!-- image scroll Y -->
+            <div class="modal-image-container d-flex flex-column">
+              <img src="/images/card-1-two.jpg" alt=""  class="w-100">
+              <img src="/images/card-1-three.jpg" alt="" class="w-100">
+              <img src="/images/card-1-four.jpg" alt=""  class="w-100" >
+              <img src="/images/card-1-five.jpg" alt=""  class="w-100" >
+              <img src="/images/card-1-six.jpg" alt=""  class="w-100" >
+              <img src="/images/card-1-seven.jpg" alt=""  class="w-100" >
+              <img src="/images/card-1-eight.jpg" alt=""  class="w-100" >
+              <img src="/images/card-1-nine.jpg" alt=""  class="w-100" >
+              <img src="/images/card-1-ten.jpg" alt=""  class="w-100" >
+            </div>
+
+            <!-- house details on right -->
+            <section class="w-75">
+                <div class="modal-header d-flex gap-3"> 
+                  <img src="/contact.images/logo.jpg" alt="" style="width: 11rem;">
+                  <div class="save d-flex gap-3 mt-4">
+                    <i class="far fa-heart" id="loveIcon"></i>
+                    <p class="text-primary">save</p>
+                  </div>
+                  <div class="share d-flex gap-3 mt-4">
+                    <i class="fas fa-share"></i>
+                    <p class="text-primary">share</p>
+                  </div>
+                </div>
+                <div class="textContentContainer px-4 ">
+                  <!-- price and basic info -->
+                  <section class="d-flex gap-3  py-4">
+                    <h4><strong>KES90,000/mo</strong></h4>
+                    <p class="text-black-50 pt-2 w-100"><small>4bd | 4ba | 3,745 Sqft</small></p>
+                  </section>
+                  <p>8407 W Trails West Dr, Columbia, MO 65202</p>
+  
+                  <!-- button for contacts -->
+                  <div class="btnContainer d-flex gap-5 mt-3">
+                    <div class=" btn border-primary "><a href="/contact.html" class="text-decoration-none">Contact Renter</a></div>
+                    <div class=" btn btn-primary "><a href="" class="text-decoration-none text-light" >Take tour</a></div>
+                  </div>
+                  <!-- overview -->
+                  <section class="mt-5 overview">
+                    <h5 class="text-black">Overview</h5>
+                    <p>
+                      Tons of NEW added in this remodel: Flooring, kitchen countertops, cabinet refinish, 
+                      appliances, lighting throughout, paint throughout, windows, 2nd bathroom off the 
+                      Master suite w/ tiled shower, front porch deck, new driveway poured, new sewer line and more
+                      to list! Right across the street, down the road from KFC for a delicious meal 
+                      from Hussein's Bakery or a straight shot to either CBD nairobi for all of the events!
+                      Take advantage of this turn-key home today. Open house this Saturday (12/4) from <strong>12:30pm</strong>
+                    </p>
+                    <h5 class="text-black"><u>Facts and features</u></h5>
+                    <p>Townhouse <br> bedrooms3 <br> bathrooms 3 <br> Built in 1982 <br> Natural gas and Electric <br> 2Attached garage spaces <br> kes20,234 monthly HOA fee 4,560 sqft <br></p>
+                  </section>
+                </div>
+            </section>
           </div>
-          
-          <section class="w-75">
-              <div class="modal-header d-flex gap-lg-2"> 
-                <img src="/contact.images/logo.jpg" alt="" style="width: 10rem;">
-                <div class="save d-flex gap-1">
-                  <i class="far fa-heart" id="loveIcon"></i>
-                  <p class="text-primary">save</p>
-                </div>
-                <div class="share d-flex gap-1">
-                  <i class="fas fa-share"></i>
-                  <p class="text-primary">share</p>
-                </div>
-              </div>
-              <div class="textContentContainer px-4">
-                <!-- price and basic info -->
-                <section class="d-flex gap-lg-3  py-4">
-                  <h4>KES90,000/mo</h4>
-                  <p class="text-black-50 pt-2"><small>4bd | 4ba | 3,745 Sqft</small></p>
-                </section>
-                <p>8407 W Trails West Dr, Columbia, MO 65202</p>
-
-                <!-- button for contacts -->
-                <div class="btnContainer d-flex gap-lg-5 mt-3">
-                  <div class=" btn border-primary "><a href="/contact.html" class="text-decoration-none">Contact Renter</a></div>
-                  <div class=" btn btn-primary "><a href="" class="text-decoration-none text-light" >Take tour</a></div>
-                </div>
-                <!-- overview -->
-                <section class="mt-5">
-                  <h5 class="text-black-50">Overview</h5>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis atque saepe, quo inventore veniam iure ipsum blanditiis ea amet distinctio voluptas voluptatem beatae doloribus mollitia, doloremque, praesentium voluptate iste! Provident maiores iste perferendis, labore unde quas minima esse nemo eaque. Asperiores non dignissimos earum in minus quisquam dolorem quibusdam exercitationem.</p>
-                </section>
-              </div>
-          </section>
+           
         </div>
-         
       </div>
     </div>
   </div>
-   </div>
-
-
+  
  <!-- model second -->
    <div class="modal fade" id="secondModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
@@ -135,25 +157,25 @@
       <div class="modal-body ">
         <div class="body-container-modal d-flex">
           <div class="modal-image-container d-flex flex-column">
-            <img src="/images/card-1-two.jpg" alt=""  class="w-100">
-            <img src="/images/card-1-three.jpg" alt="" class="w-100">
-            <img src="/images/card-1-four.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-five.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-six.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-seven.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-eight.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-nine.jpg" alt=""  class="w-100" >
-            <img src="/images/card-1-ten.jpg" alt=""  class="w-100" >
+            <img src="/images/card2-img.jpg" alt=""  class="w-100">
+                <img src="/images/card2-img2.jpg" alt="" class="w-100">
+                <img src="/images/card2-img3.jpg" alt=""  class="w-100" >
+                <img src="/images/card2-img4.jpg" alt=""  class="w-100" >
+                <img src="/images/card2-img5.jpg" alt=""  class="w-100" >
+                <img src="/images/card2-img6.jpg" alt=""  class="w-100" >
+                <img src="/images/card2-img7.jpg" alt=""  class="w-100" >
+                <img src="/images/card2-img.jpg" alt=""  class="w-100" >
+                <img src="/images/card2-img4.jpg" alt=""  class="w-100" >
           </div>
           
           <section class="w-75">
               <div class="modal-header d-flex gap-lg-2">
                 <img src="/contact.images/logo.jpg" alt="" style="width: 10rem;">
-                <div class="save d-flex gap-1">
+                <div class="save d-flex gap-1 mt-4">
                   <i class="far fa-heart"></i>
                   <p class="text-primary">save</p>
                 </div>
-                <div class="share d-flex gap-1">
+                <div class="share d-flex gap-1 mt-4">
                   <i class="fas fa-share"></i>
                   <p class="text-primary">share</p>
                 </div>
@@ -161,7 +183,7 @@
               <div class="textContentContainer px-4">
                 <!-- price and basic info -->
                 <section class="d-flex gap-lg-3  py-4">
-                  <h4>KES45,000/mo</h4>
+                  <h3><strong>KES45,000/mo</strong></h3>
                   <p class="text-black-50 pt-2"><small>3bd | 2ba | 2,775 Sqft</small></p>
                 </section>
                 <p>Dedan kimathi 2017, 469Omp ma201</p>
@@ -172,10 +194,19 @@
                   <div class=" btn btn-primary "><a href="" class="text-decoration-none text-light" >Take tour</a></div>
                 </div>
                 <!-- overview -->
-                <section class="mt-5">
-                  <h5 class="text-black-50">Overview</h5>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis atque saepe, quo inventore veniam iure ipsum blanditiis ea amet distinctio voluptas voluptatem beatae doloribus mollitia, doloremque, praesentium voluptate iste! Provident maiores iste perferendis, labore unde quas minima esse nemo eaque. Asperiores non dignissimos earum in minus quisquam dolorem quibusdam exercitationem.</p>
-                </section>
+                  <section class="mt-5 overview">
+                    <h5 class="text-black">Overview</h5>
+                    <p>
+                      Tons of NEW added in this remodel: Flooring, kitchen countertops, cabinet refinish, 
+                      appliances, lighting throughout, paint throughout, windows, 2nd bathroom off the 
+                      Master suite w/ tiled shower, front porch deck, new driveway poured, new sewer line and more
+                      to list! Right across the street, down the road from KFC for a delicious meal 
+                      from Hussein's Bakery or a straight shot to either CBD nairobi for all of the events!
+                      Take advantage of this turn-key home today. Open house this Saturday (12/4) from <strong>12:30pm</strong>
+                    </p>
+                    <h5 class="text-black"><u>Facts and features</u></h5>
+                    <p>Townhouse <br> bedrooms3 <br> bathrooms 3 <br> Built in 1982 <br> Natural gas and Electric <br> 2Attached garage spaces <br> kes20,234 monthly HOA fee 4,560 sqft <br></p>
+                  </section>
               </div>
           </section>
         </div>
@@ -222,7 +253,7 @@
               <div class="textContentContainer px-4">
                 <!-- price and basic info -->
                 <section class="d-flex gap-lg-3  py-4">
-                  <h4>KES75,000/mo</h4>
+                  <h3><strong>KES45,000/mo</strong></h3>
                   <p class="text-black-50 pt-2"><small>3bd | 1ba | 2,175 Sqft</small></p>
                 </section>
                 <p>Dedan kimathi 2017, 469Omp ma201</p>
@@ -309,43 +340,43 @@
 
 
    <!-- one card -->
-   <div class=" rightHousesContainer row  gap-2 w-75 bg-body" data-bs-toggle="modal" data-bs-target="#firstModal">
+   <div class=" rightHousesContainer row  gap-2  bg-body" data-bs-toggle="modal" data-bs-target="#firstModal" id="rightHousesContainer">
     <h5 class="pt-2"><u>Rental Listings</u></h5>
-    <div class="card col-sm-6 " style="width: 21.8rem;" id="card">
-      <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="..." >
+    <div class="card col-sm-6 "  id="card">
+      <img src="/images/card2-img.jpg" class="card-img-top" alt="..." >
       <div class="card-body bg-body" id="cardBody">
         <h5><small>KES90,000/mo</small></h5>
         <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
-        <p><small>8407 W Trails West Dr, Columbia, MO 65202</small></p>
+        <p><small>W Trails West nrb, kenya 00100</small></p>
       </div>
     </div>
    
   <!-- two card-->
   
-    <div class="card col-sm-6 " style="width: 21.8rem;" id="card" data-bs-toggle="modal" data-bs-target="#secondModal">
-      <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+    <div class="card col-sm-6 "  id="card" data-bs-toggle="modal" data-bs-target="#secondModal">
+      <img src="/images/second-card-display.jpg" class="card-img-top" alt="..." >
       <div class="card-body" id="cardBody">
         <h5><small>KES45,000/mo</small></h5>
         <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
-        <p><small>8407 W Trails West Dr, Columbia, MO 65202</small></p>
+        <p><small>Dedan kimathi 2017, 469Omp ma201</small></p>
       </div>
     </div>
  
   <!-- three card-->
  
-    <div class="card col-sm-6" style="width: 21.8rem;" id="card"  data-bs-toggle="modal" data-bs-target="#thirdModal">
-      <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+    <div class="card col-sm-6"  id="card"  data-bs-toggle="modal" data-bs-target="#thirdModal">
+      <img src="/images/card2-img4.jpg" class="card-img-top" alt="..." >
       <div class="card-body" id="cardBody">
         <h5><small>KES75,000/mo</small></h5>
         <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
-        <p><small>8407 W Trails West Dr, Columbia, MO 65202</small></p>
+        <p><small>Kizingo area 70801-80100</small></p>
       </div>
     </div>
   
   <!-- four card-->
  
-    <div class="card col-sm-6" style="width: 21.8rem;" id="card"  data-bs-toggle="modal" data-bs-target="#fouthModal">
-      <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+    <div class="card col-sm-6"  id="card"  data-bs-toggle="modal" data-bs-target="#fouthModal">
+      <img src="/images/card2-img5.jpg" class="card-img-top" alt="..." >
       <div class="card-body" id="cardBody">
         <h5><small>KES108,000/mo</small></h5>
         <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
@@ -355,8 +386,8 @@
 
   <!-- fivecard -->
   
-    <div class="card col-sm-6" style="width: 21.8rem;" id="card"  data-bs-toggle="modal" data-bs-target="#secondModal">
-      <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+    <div class="card col-sm-6"  id="card"  data-bs-toggle="modal" data-bs-target="#secondModal">
+      <img src="/images/card-1-nine.jpg" class="card-img-top" alt="..." >
       <div class="card-body" id="cardBody">
         <h5><small>KES60,000/mo</small></h5>
         <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
@@ -365,8 +396,8 @@
     </div>
   <!-- six card-->
 
-  <div class="card col-sm-6" style="width: 21.8rem;" id="card">
-    <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
+  <div class="card col-sm-6"  id="card">
+    <img src="/images/card2-img7.jpg" class="card-img-top" alt="..." >
     <div class="card-body " id="cardBody">
       <h5><small>KES52,000/mo</small></h5>
       <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
@@ -375,7 +406,7 @@
   </div>
    <!-- seven card-->
 
-   <div class="card col-sm-6" style="width: 21.8rem;" id="card">
+   <div class="card col-sm-6"  id="card">
     <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
     <div class="card-body " id="cardBody">
       <h5><small>KES52,000/mo</small></h5>
@@ -385,7 +416,7 @@
   </div>
    <!-- eight card-->
 
-   <div class="card col-sm-6" style="width: 21.8rem;" id="card">
+   <div class="card col-sm-6"  id="card">
     <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
     <div class="card-body " id="cardBody">
       <h5><small>KES52,000/mo</small></h5>
@@ -395,7 +426,7 @@
   </div>
    <!-- nine card-->
 
-   <div class="card col-sm-6" style="width: 21.8rem;" id="card">
+   <div class="card col-sm-6"  id="card">
     <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
     <div class="card-body " id="cardBody">
       <h5><small>KES52,000/mo</small></h5>
@@ -405,7 +436,7 @@
   </div>
    <!-- ten card-->
 
-   <div class="card col-sm-6" style="width: 21.8rem;" id="card">
+   <div class="card col-sm-6"  id="card">
     <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
     <div class="card-body " id="cardBody">
       <h5><small>KES52,000/mo</small></h5>
@@ -413,66 +444,8 @@
       <p><small>8407 W Trails West Dr, Columbia, MO 65202</small></p>
     </div>
   </div>
-   <!-- eleven card-->
 
-   <div class="card col-sm-6" style="width: 21.8rem;" id="card">
-    <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
-    <div class="card-body " id="cardBody">
-      <h5><small>KES52,000/mo</small></h5>
-      <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
-      <p><small>8407 W Trails West Dr, Columbia, MO 65202</small></p>
-    </div>
-  </div>
-   <!-- twelve card-->
-
-   <div class="card col-sm-6" style="width: 21.8rem;" id="card">
-    <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
-    <div class="card-body " id="cardBody">
-      <h5><small>KES52,000/mo</small></h5>
-      <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
-      <p><small>8407 W Trails West Dr, Columbia, MO 65202</small></p>
-    </div>
-  </div>
-    <!-- thirteen card-->
-
-    <div class="card col-sm-6" style="width: 21.8rem;" id="card">
-      <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
-      <div class="card-body " id="cardBody">
-        <h5><small>KES52,000/mo</small></h5>
-        <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
-        <p><small>8407 W Trails West Dr, Columbia, MO 65202</small></p>
-      </div>
-    </div>
-      <!-- fourteen card-->
-
-   <div class="card col-sm-6" style="width: 21.8rem;" id="card">
-    <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
-    <div class="card-body " id="cardBody">
-      <h5><small>KES52,000/mo</small></h5>
-      <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
-      <p><small>8407 W Trails West Dr, Columbia, MO 65202</small></p>
-    </div>
-  </div>
-    <!-- fifteen card-->
-
-    <div class="card col-sm-6" style="width: 21.8rem;" id="card">
-      <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
-      <div class="card-body " id="cardBody">
-        <h5><small>KES52,000/mo</small></h5>
-        <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
-        <p><small>8407 W Trails West Dr, Columbia, MO 65202</small></p>
-      </div>
-    </div>
-       <!-- seventeen card-->
-
-       <div class="card col-sm-6" style="width: 21.8rem;" id="card">
-        <img src="https://images.pexels.com/photos/7587287/pexels-photo-7587287.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top w-100" alt="...">
-        <div class="card-body " id="cardBody">
-          <h5><small>KES52,000/mo</small></h5>
-          <p class="card-text"><small>3 bds3 ba1,560 sqft- House for rent</small></p>
-          <p><small>8407 W Trails West Dr, Columbia, MO 65202</small></p>
-        </div>
-      </div>
+  
 
   </div>
  </main>

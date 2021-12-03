@@ -7,6 +7,14 @@ html {
   background-color: #F2FAFF;
   margin: auto;
 }
+#btn-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.hide {
+  display: none;
+}
 
 
 #fa-home {
@@ -98,12 +106,16 @@ html {
   height: 80vh;
 }
 
+
 .card {
   margin: auto;
 }
 
 .btn {
   width: 75px;
+}
+.row{
+  --bs-gutter-x: 0rem;
 }
 
 
@@ -113,6 +125,7 @@ html {
   text-align: center;
   font-size: 14px;
 }
+
 
 
 /* The footer is fixed to the bottom of the page */
@@ -276,6 +289,14 @@ footer {
   margin-right: 3px;
   margin-bottom: 5px;
 }
+#mobile-menu div{
+  display: none;
+
+}
+
+.hamburgerIcon{
+  display: none;
+}
 
 
 /* Here is the code for Responsive Footer */
@@ -295,4 +316,20 @@ footer {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
+  .footer-left #logo{
+    display: none;
+  }
+  .footerimage1{
+    display: none;
+  }
+  .hamburgerIcon {
+    display: flex;
+    justify-content: end;
+    align-self: center;
+   }
+   .footer-image, .rightLinks, .leftLinks{
+    display: none;
+  }
+ 
+
 }

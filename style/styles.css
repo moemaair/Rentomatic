@@ -66,35 +66,42 @@ width: fit-content;
 cursor: pointer;
 
 }
+.overview p{
+  line-height: 1.5;
+}
 
 .modal-image-container{
   overflow-y: scroll;
   height:100vh;
-  
-
 }
-
 
  .btn-close{
 display: flex;
 justify-content: end;
 align-self: end;
 }
+.hamburgerIcon {
+  display: none;
+}
 
-* The footer is fixed to the bottom of the page */
+.hamburgerIcon{
+  display: none;
+}
+.header-nav{
+display: flex;
+
+}
+#mobile-menu{
+  display: none;
+}
+
+/* The footer is fixed to the bottom of the page */
 
 footer {
     bottom: 0;
   }
   
-  @media (max-height:800px) {
-    footer {
-      position: static;
-    }
-    header {
-      padding-top: 40px;
-    }
-  }
+
   
   .footer-distributed {
     box-sizing: border-box;
@@ -231,23 +238,63 @@ footer {
     margin-bottom: 5px;
   }
   
-  
-  /* Here is the code for Responsive Footer */
-  
-  
+  @media screen and (min-width:881px) {
+    #card{
+      width: 21.8rem;
+    }
+    
+  }
+  .rightHousesContainer{
+    width: 75vw  ;
+  }
   /* You can remove below code if you don't want Footer to be responsive */
   
-  @media (max-width: 880px) {
+  @media screen and (max-width: 880px) {
     .footer-distributed .footer-left,
     .footer-distributed .footer-center,
     .footer-distributed .footer-right {
       display: block;
       width: 100%;
-      margin-bottom: 40px;
       text-align: center;
     }
     .footer-distributed .footer-center i {
       margin-left: 0;
     }
+    .row{
+      padding: 0 10px;
+     flex-direction: row;   
+    --bs-gutter-x: 0rem;
+    }
+
+   .hamburgerIcon {
+    display: flex;
+    justify-content: end;
+    align-self: center;
+    
+   }
+   .footer-image, .rightLinks, .leftLinks{
+    display: none;
+  }
+    .footer-left img{
+      display: none;
+    }
+    .mobile-menu{
+      display: none;
+    }
+    .leftImageContainerRent, .leftImageContainerBuy{
+      display: none;
+    }
+    .rightHousesContainer{
+    width: 100vw;
+   }
+   .body-container-modal {
+     flex-direction: column;
+   }
+   .textContentContainer{
+     border: 2px solid red;
+     width: 75vw;
+   }
+  
+   
   }
 
